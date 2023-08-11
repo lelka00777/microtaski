@@ -50,9 +50,9 @@ return (
 
  <div>
    
-   {/* <FullInput addMessage={addMessage}/> */}
-   <Input title={title} setTiitle={setTiitle}/>
-   <Button name={'+'} callBack={callBackButtonHandler} />
+   <FullInput addMessage={addMessage}/>
+   {/* <Input title={title} setTiitle={setTiitle}/> */}
+   {/* <Button name={'+'} callBack={callBackButtonHandler} /> */}
    {message.map((el)=>{
       return(
          <div>{el.message}</div>
